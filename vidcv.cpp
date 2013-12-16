@@ -86,8 +86,8 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,
                     CascadeClassifier& nestedCascade,
                     double scale, bool tryflip );
 
-string cascadeName = "/root/cvtest/haarcascade_frontalface_alt.xml";
-string nestedCascadeName = "/root/cvtest/haarcascade_eye_tree_eyeglasses.xml";
+string cascadeName = "haarcascade_frontalface_alt.xml";
+string nestedCascadeName = "haarcascade_eye_tree_eyeglasses.xml";
 
 CascadeClassifier cascade, nestedCascade;
 /** Structure containing all state information for the current run
